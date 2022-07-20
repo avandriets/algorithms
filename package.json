@@ -16,7 +16,14 @@
     "binary-search": "ts-node binary-search.ts",
     "merge-sort": "ts-node sorting/merge-sorting.ts",
     "factorial": "ts-node factorial.ts",
-    "palindrome": "ts-node palindrome.ts"
+    "palindrome": "ts-node palindrome.ts",
+    "tree-bfs": "ts-node tree/bfs-dfs.ts",
+    "tree-has-path": "ts-node tree/has-path.ts",
+    "tree-has-path-undirected": "ts-node tree/undirected-path.ts",
+    "tree-connected-nodes": "ts-node tree/connected-nodes-count.ts",
+    "tree-largest-component": "ts-node tree/largest-component.ts",
+    "tree-short-path": "ts-node tree/shortest-path.ts",
+    "tree-islands-count": "ts-node tree/islands-count.ts"
   },
   "author": "",
   "license": "ISC",
