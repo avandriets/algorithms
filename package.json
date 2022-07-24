@@ -23,7 +23,12 @@
     "tree-connected-nodes": "ts-node tree/connected-nodes-count.ts",
     "tree-largest-component": "ts-node tree/largest-component.ts",
     "tree-short-path": "ts-node tree/shortest-path.ts",
-    "tree-islands-count": "ts-node tree/islands-count.ts"
+    "tree-islands-count": "ts-node tree/islands-count.ts",
+    "class-names": "ts-node class-names/class-names.ts",
+    "tapping-rain-water": "ts-node tapping-rain-water/tapping-rain-water.ts",
+    "braces": "ts-node braces/braces.ts",
+    "stocks": "ts-node stocks/stocks.ts",
+    "brikcs": "ts-node bricks/bricks.ts"
   },
   "author": "",
   "license": "ISC",
