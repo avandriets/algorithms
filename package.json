@@ -28,7 +28,8 @@
     "tapping-rain-water": "ts-node tapping-rain-water/tapping-rain-water.ts",
     "braces": "ts-node braces/braces.ts",
     "stocks": "ts-node stocks/stocks.ts",
-    "brikcs": "ts-node bricks/bricks.ts"
+    "brikcs": "ts-node bricks/bricks.ts",
+    "intersect": "ts-node array-intersect/array-interect.ts"
   },
   "author": "",
   "license": "ISC",
