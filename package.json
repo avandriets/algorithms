@@ -29,7 +29,8 @@
     "braces": "ts-node braces/braces.ts",
     "stocks": "ts-node stocks/stocks.ts",
     "brikcs": "ts-node bricks/bricks.ts",
-    "intersect": "ts-node array-intersect/array-interect.ts"
+    "intersect": "ts-node array-intersect/array-interect.ts",
+    "sort-terst": "ts-node sorting/sort-by-multi-fields.ts"
   },
   "author": "",
   "license": "ISC",

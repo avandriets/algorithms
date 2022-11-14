@@ -20,4 +20,3 @@ while (interval > 0 || oneMore) {
 }
 
 console.log(array.toString());
-
