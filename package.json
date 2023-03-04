@@ -57,7 +57,8 @@
     "сourse-schedule-2": "ts-node сourse-schedule-2/сourse-schedule-2.ts",
     "coin-change": "ts-node coin-change/coin-change.ts",
     "binary-srch": "ts-node binary-search/binary-search.ts",
-    "longest-palindromic-substring": "ts-node longest-palindromic-substring/longest-palindromic-substring.ts"
+    "longest-palindromic-substring": "ts-node longest-palindromic-substring/longest-palindromic-substring.ts",
+    "sum-of-two": "ts-node sum-of-two/sum-of-two.ts"
   },
   "author": "",
   "license": "ISC",
