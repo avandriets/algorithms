@@ -1,29 +1,20 @@
-const stocks = [7, 1, 5, 3, 6, 4];
+// const stocks = [7, 1, 5, 3, 6, 4];
 // const stocks = [4, 6, 3, 5, 1, 7];
+const stocks = [2, 4, 1];
 
 console.log('###', getMaximumRevenue(stocks));
 
-function getMaximumRevenue(src: number[]): number {
-  let leftIndex = 0;
-  let rightIndex = src.length - 1;
+function getMaximumRevenue(prices: number[]): number {
+  let minPrice = Infinity;
+  let maxProfit = 0;
 
-  let leftMin = src[0];
-  let rightMax = src[src.length - 1];
-
-  let max = 0;
-
-  while (leftIndex < rightIndex) {
-    if (src[leftIndex] > src[rightIndex]) {
-      leftIndex++;
-    } else {
-      rightIndex--;
+  for (let i = 0; i < prices.length; i++) {
+    if (prices[i] < minPrice) {
+      minPrice = prices[i];
+    } else if (prices[i] - minPrice > maxProfit) {
+      maxProfit = prices[i] - minPrice;
     }
-
-    leftMin = Math.min(src[leftIndex], leftMin);
-    rightMax = Math.max(src[rightIndex], rightMax);
-
-    max = Math.max(rightMax - leftMin, max);
   }
 
-  return max;
+  return maxProfit;
 }

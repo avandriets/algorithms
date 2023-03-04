@@ -51,7 +51,13 @@
     "maximize-distance-to-closest-person": "ts-node maximize-distance-to-closest-person/maximize-distance-to-closest-person.ts",
     "trapping-rain-water": "ts-node trapping-rain-water/trapping-rain-water.ts",
     "meeting-rooms": "ts-node meeting-rooms/meeting-rooms.ts",
-    "backspace-string-compare": "ts-node backspace-string-compare/backspace-string-compare.ts"
+    "backspace-string-compare": "ts-node backspace-string-compare/backspace-string-compare.ts",
+    "k-closest-points-to-origin": "ts-node k-closest-points-to-origin/k-closest-points-to-origin.ts",
+    "number-of-islands.ts": "ts-node number-of-islands/number-of-islands.ts",
+    "сourse-schedule-2": "ts-node сourse-schedule-2/сourse-schedule-2.ts",
+    "coin-change": "ts-node coin-change/coin-change.ts",
+    "binary-srch": "ts-node binary-search/binary-search.ts",
+    "longest-palindromic-substring": "ts-node longest-palindromic-substring/longest-palindromic-substring.ts"
   },
   "author": "",
   "license": "ISC",
